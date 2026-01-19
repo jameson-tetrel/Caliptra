@@ -1136,7 +1136,7 @@ Upon receiving an indication that the mailbox is populated, the appropriate devi
 
 ### User attributes
 
-The AXI_USER field of the AXI interface is used to encode device attributes for the requester that is utilizing the SoC interface. These values can be used for:
+The AXI_USER (**note: PAUSER in v1.x**) field of the AXI interface is used to encode device attributes for the requester that is utilizing the SoC interface. These values can be used for:
 
 * Ensuring the device that was granted the LOCK is the one that accesses the MBOX, DLEN, COMMAND, and STATUS registers.
 * Prioritizing who is next granted the LOCK.
